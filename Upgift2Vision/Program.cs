@@ -59,14 +59,13 @@ class Program
         }
 
 
-
+        //Gets the url from console and inputs it to geturl
         async Task GetUrl(string url)
         {
 
             var imageUrl = url;
             var imageurlcog = new Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction.Models.ImageUrl(imageUrl);
             imageurlcog.Validate();
-            Console.WriteLine(url);
             if (imageUrl != null)
             {
 
@@ -78,6 +77,7 @@ class Program
                 }
             }
         }
+        //Gets filepath from input
         async Task GetFilepath(string filepath)
         {
             String[] images = Directory.GetFiles(filepath);

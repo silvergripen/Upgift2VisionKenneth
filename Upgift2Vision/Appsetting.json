@@ -3,5 +3,5 @@
   "Key": "46bdf50390c947ff90a1dbfdfd8bb7c2",
   "PredictionKey": "4123c9bbca3f484c89e79dff858dd678",
   "Id": "bbeb6c97-4ea5-4280-b60f-ee5b62f8491f",
-  "ModelName": "classify-landscape"
+  "ModelName": "landscape-classification"
 }
